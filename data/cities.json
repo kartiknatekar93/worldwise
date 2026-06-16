@@ -1,40 +1,40 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": 73930385
-    },
-    {
-      "cityName": "Madrid",
+      "cityName": "Villaverde de Guarena",
       "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
+      "date": "2026-06-16T13:57:43.628Z",
+      "emoji": "🇸🇵🇦🇮🇳",
       "notes": "",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
+        "lat": "41.062786068733026",
+        "lng": "-5.51513671875"
       },
-      "id": 17806751
+      "id": 1
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "cityName": "Puebla de Don Rodrigo",
+      "country": "Spain",
+      "date": "2026-06-16T13:57:46.027Z",
+      "emoji": "🇸🇵🇦🇮🇳",
+      "notes": "",
       "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
+        "lat": "39.06184913429154",
+        "lng": "-4.7900390625"
       },
-      "id": 98443197
+      "id": 2
+    },
+    {
+      "cityName": "Aznalcazar",
+      "country": "Spain",
+      "date": "2026-06-16T13:57:48.491Z",
+      "emoji": "🇸🇵🇦🇮🇳",
+      "notes": "",
+      "position": {
+        "lat": "37.10776507118514",
+        "lng": "-6.284179687500001"
+      },
+      "id": 3
     }
   ]
 }
