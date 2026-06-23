@@ -10,27 +10,38 @@ import CountryList from "./components/CountryList.jsx";
 import City from "./components/City.jsx";
 import Form from "./components/Form.jsx";
 import { CityProvider } from "./context/Citycontext.jsx";
+import { AuthProvider } from "./context/AuthProviderContext.jsx";
+import ProtectedRoute from "./pages/ProtectedRoute.jsx";
 
 function App() {
   return (
-    <CityProvider>
-      <BrowserRouter>
-        <Routes>
-          <Route index element={<HomePage />} />
-          <Route path="pricing" element={<Pricing />} />
-          <Route path="product" element={<Product />} />
-          <Route path="app" element={<AppLayout />}>
-            <Route index element={<Navigate to="city" />} />
-            <Route path="city" element={<CityList />} />
-            <Route path="city/:id" element={<City />} />
-            <Route path="form" element={<Form />} />
-            <Route path="country" element={<CountryList />} />
-          </Route>
-          <Route path="/login" element={<Login />} />
-          <Route path="*" element={<PageNotFound />} />
-        </Routes>
-      </BrowserRouter>
-    </CityProvider>
+    <AuthProvider>
+      <CityProvider>
+        <BrowserRouter>
+          <Routes>
+            <Route index element={<HomePage />} />
+            <Route path="pricing" element={<Pricing />} />
+            <Route path="product" element={<Product />} />
+            <Route
+              path="app"
+              element={
+                <ProtectedRoute>
+                  <AppLayout />
+                </ProtectedRoute>
+              }
+            >
+              <Route index element={<Navigate to="city" />} />
+              <Route path="city" element={<CityList />} />
+              <Route path="city/:id" element={<City />} />
+              <Route path="form" element={<Form />} />
+              <Route path="country" element={<CountryList />} />
+            </Route>
+            <Route path="login" element={<Login />} />
+            <Route path="*" element={<PageNotFound />} />
+          </Routes>
+        </BrowserRouter>
+      </CityProvider>
+    </AuthProvider>
   );
 }
 

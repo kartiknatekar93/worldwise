@@ -1,40 +1,28 @@
 {
   "cities": [
     {
-      "cityName": "Villaverde de Guarena",
-      "country": "Spain",
-      "date": "2026-06-16T13:57:43.628Z",
-      "emoji": "🇸🇵🇦🇮🇳",
+      "cityName": "Bengaluru",
+      "country": "India",
+      "date": "2026-06-23T10:25:27.527Z",
+      "emoji": "🇮🇳🇩🇮🇦",
       "notes": "",
       "position": {
-        "lat": "41.062786068733026",
-        "lng": "-5.51513671875"
+        "lat": "12.967088984637462",
+        "lng": "77.57995605468751"
       },
-      "id": 1
+      "id": 5
     },
     {
-      "cityName": "Puebla de Don Rodrigo",
-      "country": "Spain",
-      "date": "2026-06-16T13:57:46.027Z",
-      "emoji": "🇸🇵🇦🇮🇳",
+      "cityName": "Yadgir",
+      "country": "India",
+      "date": "2026-06-23T10:25:37.159Z",
+      "emoji": "🇮🇳🇩🇮🇦",
       "notes": "",
       "position": {
-        "lat": "39.06184913429154",
-        "lng": "-4.7900390625"
+        "lat": "16.75720789325807",
+        "lng": "77.13775634765626"
       },
-      "id": 2
-    },
-    {
-      "cityName": "Aznalcazar",
-      "country": "Spain",
-      "date": "2026-06-16T13:57:48.491Z",
-      "emoji": "🇸🇵🇦🇮🇳",
-      "notes": "",
-      "position": {
-        "lat": "37.10776507118514",
-        "lng": "-6.284179687500001"
-      },
-      "id": 3
+      "id": 6
     }
   ]
 }
