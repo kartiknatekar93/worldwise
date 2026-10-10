@@ -1,5 +1,5 @@
 import PageNav from "../components/PageNav";
-import styles from "./HomePage.module.css";
+import styles from "./Homepage.module.css";
 import { Link } from "react-router-dom";
 
 export default function HomePage() {
